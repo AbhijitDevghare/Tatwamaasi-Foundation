@@ -1,0 +1,344 @@
+/* Media Query */
+@media only screen and (min-width:900px) and (max-width:1400px)
+{
+
+    #First-Page{
+   
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        
+        
+    }
+    
+   
+    #First-Page header{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        justify-content: space-between;
+       
+    }
+    
+    #First-Page .menu{ 
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px 0;
+  
+        
+    }
+    
+    
+   
+    
+    
+    #First-Page a{
+        
+        align-self: normal;
+        margin: 0px 80px;
+    }
+    
+  
+    
+    #First-Page .image1
+    {
+       height: 170px;
+       width: 220px;
+      
+       margin: 30px;
+    }
+    
+
+
+
+#First-Page main
+{
+   flex-direction: column;
+    height: 100%;
+    width: 100%;
+  
+}
+#First-Page h1{
+
+    
+    font-size: 60px;
+    
+    line-height: 100px;
+    
+}
+
+
+
+#First-Page .para
+{
+   font-size: 20px;
+   
+   word-spacing: 3px;
+   line-height: 30px;
+   margin:20px;
+   text-align: center;
+  
+}
+
+
+
+#First-Page .rightimage
+{
+    height: 500px;
+    width: 500px;
+    margin:0px;
+}
+
+#First-Page button
+{
+    height: 45px;
+    width: 260px;
+    border-radius: 20px;
+    
+    font-size: 20px;
+    
+    margin: 50px;
+
+}
+
+
+
+#First-Page button:hover
+{
+    height: 50px;
+    width: 270px;
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* Mission Page-Second Page */
+
+
+#mission
+{
+    
+    height: 100%;
+    width: 100%;
+
+    flex-direction: column;
+
+
+
+  
+}
+
+#mission img{
+
+    height: 600px;
+    width: 600px;
+}
+
+
+.mission-para1
+{
+    
+    font-size: 30px;
+    
+    text-align: center;
+}
+
+.mission-para2
+{
+   
+    font-size: 20px;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.Blue-text
+{         font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* Page 3 */
+
+
+
+#Page3
+{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+   
+}
+
+
+
+
+
+#moto
+     {
+       
+        height: 100%;
+        width: 100%;
+       
+        flex-direction: column;
+
+        row-gap: 100px;
+        margin: 50px 0;
+       
+       
+     }
+  
+     .card
+     {
+        height: 450px;
+        width: 400px;
+       
+      
+        
+     }
+
+     .card-image
+     {
+       height: 250px;
+       width: 400px; 
+      border-radius: 20px 20px 0 0;
+     
+     }
+  
+     
+
+     .card:hover
+     {
+        bottom: 20px;
+        position: relative;
+     }
+ 
+
+
+
+
+     /* Page 4 */
+    
+
+
+ #Page4
+{
+
+  flex-direction: column;
+ 
+  height: 100%;
+  width: 100%;
+  
+ padding:30px 50px;
+ 
+}
+
+#Page4 span 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    #Page4 span img
+    {
+        height: 500px;
+        width: 500px;
+        
+        
+    }
+
+
+
+#Page4 span div
+{
+    margin-bottom: 50px;
+}
+
+
+#form-section:hover
+{
+    
+
+}
+
+
+
+
+
+
+
+/* Pge5 */
+
+#Page5
+{
+    
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+#Page5 h2
+{
+   font-size: 22px;
+   margin: 50px;
+
+}
+
+#Page5 iframe
+{
+    height: 50vh;
+    width: 90vw;
+    border-radius: 20px
+}
+
+
+
+  
+  footer ul {
+   
+    gap: 10px;
+    margin-right: 100px;
+   
+  }
+  
+      
+  .down1
+  {
+      letter-spacing: 2px;
+      font-size: 18px;
+      word-spacing: 3px;
+      margin: 50px 60px;
+  }
+
+  .down2
+  {
+    cursor: pointer;
+    margin: 50px 60px;
+  }
+  
+
+
+
+    
+}
+
+    
+   

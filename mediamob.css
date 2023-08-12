@@ -1,0 +1,319 @@
+/* Media Query */
+@media only screen and (max-width:900px )
+{
+
+    #First-Page{
+   
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        
+        
+    }
+    
+   
+    #First-Page header{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin: 20px;
+        justify-content: space-between;
+       
+    }
+    
+    #First-Page .menu{ 
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+        
+        
+    }
+    
+    
+   
+    
+    
+    #First-Page a{
+        
+        align-self: normal;
+        margin: 0 30px;
+    }
+    
+  
+    
+    #First-Page .image1
+    {
+       height: 100px;
+       width: 130px;
+      
+       margin: 30px;
+    }
+    
+
+
+
+#First-Page main
+{
+   flex-direction: column;
+    height: 100%;
+    width: 100%;
+  
+}
+#First-Page h1{
+
+    
+    font-size: 50px;
+    
+    line-height: 70px;
+    
+}
+
+
+
+#First-Page .para
+{
+   font-size: 20px;
+   
+   word-spacing: 2px;
+   line-height: 30px;
+   margin:20px;
+   text-align: center;
+  
+}
+
+
+
+#First-Page .rightimage
+{
+    height: 400px;
+    width: 400px;
+    margin:0px;
+}
+
+#First-Page button
+{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    
+    font-size: 20px;
+    
+    margin: 30px;
+
+}
+
+
+
+#First-Page button:hover
+{
+    height: 40px;
+    width: 250px;
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* Mission Page-Second Page */
+
+
+#mission
+{
+    
+    height: 100%;
+    width: 100%;
+
+    flex-direction: column;
+
+
+
+    overflow: visible;
+}
+
+#mission img{
+
+    height: 500px;
+    width: 500px;
+}
+
+
+.mission-para1
+{
+    
+    font-size: 25px;
+    
+    text-align: center;
+}
+
+.mission-para2
+{
+   
+    font-size: 18px;
+    text-align: center;
+}
+
+.Blue-text
+{         font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Page 3 */
+
+
+
+#Page3
+{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+   
+}
+
+
+
+
+
+#moto
+     {
+       
+        height: 100%;
+        width: 100%;
+       
+        flex-direction: column;
+
+        row-gap: 100px;
+        margin: 50px 0;
+       
+       
+     }
+  
+     
+  
+     
+
+     .card:hover
+     {
+        bottom: 20px;
+        position: relative;
+     }
+ 
+
+
+
+
+     /* Page 4 */
+    
+
+
+ #Page4
+{
+
+  flex-direction: column;
+ 
+  height: 100%;
+  width: 100%;
+  
+ padding:30px 50px;
+ 
+}
+
+#Page4 span 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    #Page4 span img
+    {
+        height: 400px;
+        width: 400px;
+        
+        
+    }
+
+
+
+#Page4 span div
+{
+    margin-bottom: 50px;
+}
+
+
+#form-section:hover
+{
+   
+
+}
+
+
+/* Pge5 */
+
+#Page5
+{
+    
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+#Page5 h2
+{
+   font-size: 22px;
+   margin: 50px;
+
+}
+
+#Page5 iframe
+{
+    height: 50vh;
+    width: 90vw;
+    border-radius: 20px
+}
+
+
+
+  
+  footer ul {
+   
+    gap: 10px;
+    margin-right: 50px;
+   ;
+  }
+  
+      
+  .down1
+  {
+      letter-spacing: 2px;
+      font-size: 18px;
+      word-spacing: 3px;
+      margin:10px;
+  }
+
+  .down2
+  {
+    cursor: pointer;
+  }
+  
+
+
+
+    
+}
+
+    
+   
